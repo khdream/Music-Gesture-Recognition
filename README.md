@@ -1,8 +1,6 @@
-# PRiSM Music Gesture Recognition
+# Music Gesture Recognition
 
-[![PRiSM](https://img.shields.io/badge/PRiSM-RNCM-blue.svg)](https://www.rncm.ac.uk/research/research-centres-rncm/prism/)
-
-PRiSM Music Gesture Recognition is a software tool for creating musical gesture datasets and real-time recognition of musical gestures based on audio input. It utilizes machine learning techniques to classify and interpret musical gestures, enabling applications in interactive music performance, composition, and more.
+Music Gesture Recognition is a software tool for creating musical gesture datasets and real-time recognition of musical gestures based on audio input. It utilizes machine learning techniques to classify and interpret musical gestures, enabling applications in interactive music performance, composition, and more.
 
 ![Screenshot of the main interface](media/MainInterface.png)
 
@@ -41,18 +39,6 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 - **Playback Mapping**: Map recognized gestures to audio playback for interactive experiences.
 - **Persistence**: Save and load trained machine learning models and configurations for consistent performance.
 - **Multi-Channel Support**: Accommodate multiple input channels for diverse audio setups.
-
------------
-
-## Installation
-
-1. Visit the [GitHub release page](https://github.com/rncm-prism/PRiSM-MusicGestureRecognition/releases) for PRiSM Music Gesture Recognition.
-2. Download the [latest software package](https://github.com/rncm-prism/PRiSM-MusicGestureRecognition/releases/download/v0.3/PRiSM_MGR_v0.3.zip) compatible with your system. (Currently available for **macOS** only.)
-3. Unzip and move the application to your Applications folder.
-4. Open PRiSM Music Gesture Recognition from your Applications.
-
-   *Troubleshooting*: If you encounter a security warning, please refer to [Apple's guide on opening an app from an unidentified developer](https://support.apple.com/en-gb/guide/mac-help/mh40616/13.0/mac/13.0).
-
 
 -----------
 
@@ -146,21 +132,3 @@ Click the `Audio` button to enable gesture audio playback and open the [Gesture 
 ## Contributing
 
 Contributions to the PRiSM Music Gesture Recognition project are welcome! If you encounter any issues or have ideas for improvements, please submit them as GitHub issues or create a pull request with your proposed changes.
-
------------
-
-## License
-
-PRiSM Music Gesture Recognition is licensed under the [MIT License](LICENSE). You are free to use and distribute the software in accordance with the terms of the license. If you use this in your project kindly give credit to the RNCM PRiSM team. 
-
------------
-
-## Credits
-
-This work is supported by [PRiSM](https://www.rncm.ac.uk/research/research-centres-rncm/prism/), The RNCM Centre for Practice & Research in Science & Music, funded by the Research England fund Expanding Excellence in England (E3). [About](media/About.png)
-
------------
-
-## References
-- [flucoma-max](https://github.com/flucoma/flucoma-max) 
-- [max-sdk](https://github.com/Cycling74/max-sdk)
